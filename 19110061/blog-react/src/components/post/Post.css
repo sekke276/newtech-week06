@@ -1,0 +1,78 @@
+
+/* Style for the post container */
+.post {
+    text-decoration: none;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+/* Style for the post username link */
+.post-username {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+text-transform: uppercase;
+    font-size: 20px;
+}
+
+/* Style for the post message */
+.post-message {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #333;
+}
+
+/* Style for the post timestamp */
+.post-timestamp {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Style for the EDIT button (assuming it's a detail button) */
+.detail-button {
+  /* background-color: #3498db; */
+  color: white;
+  border: 1px #3498db solid;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+/* Style for the DELETE button */
+.delete-button {
+  background-color: transparent;
+  font-weight: 700;  
+  border: 1px #e74c3c solid;
+  color: #e74c3c;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 114px;
+  height: 50px;
+    font-size: 15px;
+}
+
+/* Hover effect for the DELETE button */
+.detail-button:hover {
+  background-color: #3498db;
+  color: white;
+}
+
+.delete-button:hover{
+  background-color: #e74c3c;
+  color: white;
+}
